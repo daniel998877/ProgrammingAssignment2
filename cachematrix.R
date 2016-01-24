@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinv = getinv)
 }
 
-## cacheSolve returns either the inverse of a matrix passed in or get the cached value inverse.
+## cacheSolve returns either the inverse of a matrix passed in or gets the cached value inverse.
 
 cacheSolve <- function(x = matrix(), ...) {
   m <- x$getinv()
